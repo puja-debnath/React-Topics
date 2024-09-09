@@ -5,15 +5,12 @@ import Login from "./components/Login";
 import UserContextProvider from "./context/UserContextProvider";
 
 function App() {
-  
   return (
     <UserContextProvider>
-    <h1>context api </h1>
+      <h1>context api </h1>
       <Login />
       <Profile />
-  
     </UserContextProvider>
-      
   );
 }
 
